@@ -14,15 +14,14 @@ const Ul = styled.ul`
   
   .nav > li {
     float:left;
-    font-family: Montserrat Black Italic;
-    color: #EF233C;
+    font-family: Poppins, sans-serif;
     text-transform: uppercase;
     margin-right: 3rem;
   }
   
   .nav li a {
     background-color:#000;
-    color:#EF233C;
+    color: white;
     text-decoration:none;
     padding:8px 5px;
     display:block;

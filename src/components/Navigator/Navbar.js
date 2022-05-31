@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import Burger from "./Burger";
+import LogoGreco from "../../assets/logo-greco.png";
 
 const Nav = styled.nav`
-  height: 11vh;
+  height: 12vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -38,7 +39,7 @@ const Navbar = () => {
   return (
     <Nav className="navigator">
       <div className="logo">
-        <p></p>
+        <img src={LogoGreco} width="75" alt="Logo de Greco Hermanos"/>
       </div>
       <Burger />
     </Nav>
