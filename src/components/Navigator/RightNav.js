@@ -20,7 +20,7 @@ const Ul = styled.ul`
   }
   
   .nav li a {
-    background-color:#000;
+    background-color: black;
     color: white;
     text-decoration:none;
     padding:8px 5px;
@@ -28,8 +28,7 @@ const Ul = styled.ul`
   }
   
   .nav li a:hover {
-    -webkit-text-stroke: 1px red;
-    color: transparent; 
+    color: #F6AE2D; 
   }
   
   .nav li ul {
@@ -87,7 +86,7 @@ const RightNav = ({ open }) => {
     <Ul open={open} id="menu">
       <ul className="nav">
 				<li><Link to="/">INICIO</Link></li>
-        <li><Link to="/AboutUs">NOSOTROS</Link></li>
+        <li><a href="#Nosotros">NOSOTROS</a></li>
         <li><Link to="/AboutUs">CONTACTO</Link></li>					
 			</ul>
     </Ul>

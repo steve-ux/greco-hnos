@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Burger from "./Burger";
-import LogoGreco from "../../assets/logo-greco.png";
+import LogoGreco from "../../assets/greco-logo.png";
 
 const Nav = styled.nav`
   height: 12vh;
@@ -13,6 +13,9 @@ const Nav = styled.nav`
 
   .logo {
     padding: 0.5px 30px;
+  }
+  img {    
+    filter: drop-shadow(3px 5px 20px red);
   }
   .logoNav {
     width: 7vw;
