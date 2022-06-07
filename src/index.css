@@ -3,7 +3,7 @@
   src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 }
 :root {
-  --primary-font: "Poppins, sans-serif";
+  --primary-font: Poppins, sans-serif;
   --primary-color: #F6AE2D; 
 }
 
@@ -14,7 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./assets/wall.jpg");
+  background-image: url("./assets/background.jpg");
   background-size: cover;
 }
 
@@ -164,14 +164,42 @@ a:hover span:nth-child(2):after {
 .titleNosotros {
   text-align: center;
   font-size: 4rem;
-  color: red;
+  color: var(--primary-color);
   text-transform: uppercase;
+  font-family: var(--primary-font);
 }
+
+.text-nosotros {
+  color: white;
+  padding: 1rem;
+  width: 50%;
+  font-size: 1.2rem;
+  font-family: monospace;
+}
+
 iframe {
   padding: 1rem;
+  margin-left: 2rem;
+}
+
+.epigrafe {
+  text-align: start;
+  font-style: italic;
+  font-size: .8rem;
+  margin-left: 2.9rem;
+  margin-bottom: 0.6rem;
+  text-indent: 0;
+  color: rgba(167, 167, 167, 0.701);
+}
+
+span {
+  color: var(--primary-color);
 }
 
 .box-nosotros {
   display: flex;
   flex-direction: row;
 }
+
+/*  Clientes  */
+
