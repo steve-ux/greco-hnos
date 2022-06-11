@@ -3,7 +3,7 @@ function Formulario() {
       <>
       <div className="formularioContainer2">
         <div className="content">
-        <form action="https://formsubmit.co/info@envaseslosandes.com" method="POST">
+        <form action="https://formsubmit.co/grecohnostc@hotmail.com" method="POST">
         <label for="full_name">Nombre completo:</label>
          <input required id="full_name" name="Nombre Completo" 
          type="text"/> 
@@ -17,7 +17,7 @@ function Formulario() {
          <textarea required id="message" name="Mensaje" 
          type="textarea" minLength="10" title="Mensaje mínimo de 10 caracteres." className="inputMsj"/>
   
-        <input type="hidden" name="_next" value="https://envaseslosandes.com/Enviado"/>
+        {/* <input type="hidden" name="_next" value="https://.com/Enviado"/> Poner URL del dominio */}
         <input type="hidden" name="_subject" value="Nueva consulta desde la web!"/>
         <input type="hidden" name="_captcha" value="false"/>
          

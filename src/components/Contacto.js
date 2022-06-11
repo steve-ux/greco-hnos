@@ -4,7 +4,11 @@ import Footer from "../components/Footer";
 function Contacto() {
   return (
     <div>
-      <h1 className="titleContacto">Contactate, te estamos esperando</h1>
+      <h1 className="titleContacto" id="Contacto" data-aos="zoom-in" data-aos-duration="600">Contactate, te estamos esperando</h1>
+      <div className="text-contacto">
+                <p>Comunicate con nosotros por las distintas vías de comunicación con las que contamos. Podés realizar todas las consultas que creas necesarias y ajustarnos a tus necesidades.</p>
+                <p></p>
+                </div>
       <FormularioContacto />
       <h2 className="titleContacto2">Otras vías de contacto</h2>
       <div className="mapsContacto">
