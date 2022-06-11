@@ -28,7 +28,7 @@ const Ul = styled.ul`
   }
   
   .nav li a:hover {
-    color: #F6AE2D;
+    color: #e32415;
   }
   
   .nav li ul {

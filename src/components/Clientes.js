@@ -1,6 +1,5 @@
 import "../clientes.scss";
 import Andesmar from "../assets/andesmar-logo.png";
-import Rapido from "../assets/elrapido.jpg";
 import Heras from "../assets/las-heras.jpg";
 import Lizana from "../assets/lizana.png";
 import Concremix from "../assets/concremix.png";
@@ -16,25 +15,22 @@ function Clientes () {
         <div class="slider">
         <div class="slide-track">
             <div class="slide">
-                <img src={Andesmar} height="100" width="250" alt="Logo Transportes Andesmar" />
+                <img src={Andesmar} height="70" width="150" alt="Logo Transportes Andesmar" />
             </div>
             <div class="slide">
-                <img src={Rapido} height="100" width="250" alt="Logo El Rápido Internacional" />
+                <img src={Heras} height="120" width="140" alt="Municipalidad de Las Heras" style={{"margin-top": "-1rem", "margin-left": "2rem"}} />
             </div>
             <div class="slide">
-                <img src={Heras} height="100" width="100" alt="Municipalidad de Las Heras" />
+                <img src={Lizana} height="80" width="200" alt="Transportes Lizana logo" />
             </div>
             <div class="slide">
-                <img src={Lizana} height="100" width="250" alt="Transportes Lizana logo" />
+                <img src={Concremix} height="50" width="250" alt="Logo de concremix" style={{"margin-top": "1rem"}} />
             </div>
             <div class="slide">
-                <img src={Concremix} height="50" width="150" alt="Logo de concremix" />
+                <img src={Lopez} height="50" width="150" alt="Grúas López" style={{"margin-top": "1rem"}} />
             </div>
             <div class="slide">
-                <img src={Lopez} height="50" width="100" alt="Grúas López" />
-            </div>
-            <div class="slide">
-                <img src={Tomio} height="100" width="250" alt="Ingeniería Tomio" />
+                <img src={Tomio} height="80" width="150" alt="Ingeniería Tomio" />
             </div>
             <div class="slide">
                 <img src={Sargo} height="100" width="250" alt="Grupo Sargo" />
@@ -43,22 +39,19 @@ function Clientes () {
                 <img src={Andesmar} height="100" width="250" alt="Logo Transportes Andesmar" />
             </div>
             <div class="slide">
-                <img src={Rapido} height="100" width="250" alt="Logo El Rápido Internacional" />
+                <img src={Heras} height="120" width="140" alt="Municipalidad de Las Heras" style={{"margin-top": "-1rem", "margin-left": "2rem"}}/>
             </div>
             <div class="slide">
-                <img src={Heras} height="100" width="100" alt="Municipalidad de Las Heras" />
+                <img src={Lizana} height="80" width="200" alt="Transportes Lizana logo" />
             </div>
             <div class="slide">
-                <img src={Lizana} height="100" width="250" alt="Transportes Lizana logo" />
+                <img src={Concremix} height="50" width="250" alt="Logo de concremix" style={{"margin-top": "1rem"}} />
             </div>
             <div class="slide">
-                <img src={Concremix} height="50" width="150" alt="Logo de concremix" />
+                <img src={Lopez} height="50" width="150" alt="Grúas López" style={{"margin-top": "1rem"}} />
             </div>
             <div class="slide">
-                <img src={Lopez} height="50" width="100" alt="Grúas López" />
-            </div>
-            <div class="slide">
-                <img src={Tomio} height="100" width="250" alt="Ingeniería Tomio" />
+                <img src={Tomio} height="80" width="150" alt="Ingeniería Tomio" />
             </div>
             <div class="slide">
                 <img src={Sargo} height="100" width="250" alt="Grupo Sargo" />

@@ -1,4 +1,5 @@
 import Videoloop from "../assets/cars.mp4";
+import Logotipo from "../assets/logo-completo.png";
 
 function Home() {
     return (
@@ -9,7 +10,7 @@ function Home() {
         </video>
         <div className="containerElements">
         <span className="spanHome">
-        <h1 className="titleInicio">GRECO HERMANOS</h1>
+        <h1 className="titleInicio"><img src={Logotipo} width="500" alt="Logotipo de Greco"/></h1>
         </span>
         <p className="parrafoHome">
             EL MEJOR RECTIFICADOR DE TAPAS DE CILINDRO.
