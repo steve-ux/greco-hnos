@@ -24,7 +24,7 @@ $animationSpeed: 40s;
 
 .slider {
 	background: #ffffff;
-	height: 150px;
+	height: 250px;
 	margin: auto;
 	overflow:hidden;
 	position: relative;
@@ -62,5 +62,8 @@ $animationSpeed: 40s;
 		width: 250px;
 		padding: 1rem;
 		filter: grayscale(100%);
+	}
+	.slide:hover {
+		filter: grayscale(0%);
 	}
 }

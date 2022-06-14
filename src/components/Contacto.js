@@ -1,10 +1,9 @@
 import FormularioContacto from "../components/FormularioContacto";
-import Footer from "../components/Footer";
 
 function Contacto() {
   return (
-    <div>
-      <h1 className="titleContacto" id="Contacto" data-aos="zoom-in" data-aos-duration="600">Contactate, te estamos esperando</h1>
+    <div className="container-contact">
+      <h1 className="titleContacto" id="Contacto" data-aos="fade-down" data-aos-duration="600">Contactate, te estamos esperando</h1>
       <div className="text-contacto">
                 <p>Comunicate con nosotros por las distintas vías de comunicación con las que contamos. Podés realizar todas las consultas que creas necesarias y ajustarnos a tus necesidades.</p>
                 <p></p>
@@ -18,8 +17,7 @@ function Contacto() {
       <p className="direccion">Brandsen al 2770, Dorrego-Guaymallén</p>
       <a href="tel:2615069690"><p>261 431-4024</p></a>
       <a href="mailto:grecohnostc@hotmail.com"><p>grecohnostc@hotmail.com</p></a>
-      </div> 
-      <Footer />
+      </div>
     </div>
   );
 }

@@ -6,6 +6,7 @@ import Concremix from "../assets/concremix.png";
 import Lopez from "../assets/gruas.png";
 import Tomio from "../assets/tomio.png";
 import Sargo from "../assets/sargo.jpg";
+import Boart from "../assets/boart.png";
 
 function Clientes () {
     return (
@@ -36,6 +37,9 @@ function Clientes () {
             <a href="https://sargo.com.ar/" target="_blank" rel="noreferrer"><img src={Sargo} height="100" width="250" alt="Grupo Sargo" /></a>
             </div>
             <div class="slide">
+                <a href="https://www.boartlongyear.com/es/" target="_blank" rel="noreferrer"><img src={Boart} height="70" width="270" alt="Logo Boart LongYear" /></a>
+            </div>
+            <div class="slide">
             <a href="https://www.andesmar.com/" target="_blank" rel="noreferrer"><img src={Andesmar} height="70" width="150" alt="Logo Transportes Andesmar" /></a>
             </div>
             <div class="slide">
@@ -55,6 +59,9 @@ function Clientes () {
             </div>
             <div class="slide">
             <a href="https://sargo.com.ar/" target="_blank" rel="noreferrer"><img src={Sargo} height="100" width="250" alt="Grupo Sargo" /></a>
+            </div>
+            <div class="slide">
+                <a href="https://www.boartlongyear.com/es/" target="_blank" rel="noreferrer"><img src={Boart} height="70" width="270" alt="Logo Boart LongYear" /></a>
             </div>
         </div>
     </div>

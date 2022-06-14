@@ -1,5 +1,5 @@
 import Videoloop from "../assets/cars.mp4";
-import Logotipo from "../assets/logo-completo.png";
+import Logotipo from "../assets/logo-completo-white.png";
 
 function Home() {
     return (
@@ -16,7 +16,7 @@ function Home() {
             EL MEJOR RECTIFICADOR DE TAPAS DE CILINDRO.
           </p>
           <div class="center">
-        <a href="https://www.facebook.com/GrecoHnos"><span data-attr="SOMOS">SOMOS</span><span data-attr="GRECO">GRECO</span></a>
+        <a href="https://api.whatsapp.com/send?phone=5492612121844&text=Hola,%20visité%20su%20web%20y%20quisiera%20conocer%20más%20sobre%20sus%20productos" target="_blank" rel="noreferrer"><span data-attr="WHATS">WHATS</span><span data-attr="APPS">APPS</span></a>
     </div>
           </div>
           

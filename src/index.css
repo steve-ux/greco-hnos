@@ -91,6 +91,7 @@ a span {
   padding: 15px;
   transition: .5s;
   position: relative;
+  font-family: 'Poppins', sans-serif;
 }
 a span:nth-child(1) {
   color: #fff;
@@ -119,7 +120,7 @@ a span:nth-child(2):before {
   position: absolute;
   top: 0;
   left: 0;
-  background: #262626;
+  background: #000000;
   padding: 15px;
   transition: 0.5S;
   transform-origin: bottom;
@@ -134,7 +135,7 @@ padding: 15px;
 position: absolute;
 top: 0;
 left: 0;
-background: #262626;
+background: #000000;
 transform-origin: bottom;
 transform: rotateX(0deg) translateY(0%);
 transition: 0.5s;
@@ -162,7 +163,7 @@ a:hover span:nth-child(2):after {
 .containerNosotros {
   display: flex;
   flex-direction: column;
-  background-image: url("./assets/background.jpg");
+  background-image: url("./assets/Black\ and\ noise.jpg");
 }
 
 .titleNosotros {
@@ -171,6 +172,7 @@ a:hover span:nth-child(2):after {
   color: var(--primary-color);
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
 }
 
 .text-nosotros {
@@ -179,6 +181,7 @@ a:hover span:nth-child(2):after {
   width: 50%;
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
 }
 
 iframe {
@@ -205,10 +208,21 @@ span {
   flex-direction: row;
 }
 
+.img-nosotros {
+  filter: grayscale(100%);
+  padding: 1rem;
+  margin-left: 1rem
+}
+
 /*  Clientes  */
 
 
 /* Contacto */
+.container-contact {
+  background-color: #453a94;
+  padding: 1rem;
+  background-image: url("./assets/Black\ and\ noise.jpg");
+}
 
 .titleContacto {
   text-align: center;
@@ -220,11 +234,12 @@ span {
 }
 
 .text-contacto {
-  color: rgb(49, 48, 48);
+  color: rgb(255, 255, 255);
   padding: 1rem;
   margin-top: 1rem;
   font-size: 1.2rem;
   font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
 }
 
 .mapsContacto {
@@ -259,5 +274,26 @@ form {
   padding: 2rem;
   font-family: var(--secondary-font);
   color: white;
+}
+
+/* Footer */
+
+
+
+footer {
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem;
+}
+
+.containerFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prefooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 

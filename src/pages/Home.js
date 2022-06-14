@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Nosotros from "../components/Nosotros";
 import Clientes from "../components/Clientes";
 import Contacto from "../components/Contacto";
-// import Footer from "../components/Footer";
+import Footer from "../components/Footer";
 
 
 function Home() {
@@ -14,9 +14,8 @@ function Home() {
         <Header/>
         <Nosotros/>
         <Clientes/>
-        <Contacto/>
-        {/*
-        <Footer/> */}
+        <Contacto/>        
+        <Footer/>
       </div>
   );
 }

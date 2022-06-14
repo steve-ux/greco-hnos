@@ -1,34 +1,64 @@
-function Formulario() {
-    return (
-      <>
-      <div className="formularioContainer2">
-        <div className="content">
-        <form action="https://formsubmit.co/grecohnostc@hotmail.com" method="POST">
-        <label for="full_name">Nombre completo:</label>
-         <input required id="full_name" name="Nombre Completo" 
-         type="text"/> 
+// function Formulario() {
+//     return (
+//       <>
+//       <div className="formularioContainer2">
+//         <div className="content">
+//         <form action="https://formsubmit.co/grecohnostc@hotmail.com" method="POST">
+//         <label for="full_name">Nombre completo:</label>
+//          <input required id="full_name" name="Nombre Completo" 
+//          type="text"/> 
          
-         <label for="email">Email:</label>
-         <input required id="email" name="Email" 
-         type="email"/>
+//          <label for="email">Email:</label>
+//          <input required id="email" name="Email" 
+//          type="email"/>
   
         
-         <label for="message">Mensaje:</label>
-         <textarea required id="message" name="Mensaje" 
-         type="textarea" minLength="10" title="Mensaje mínimo de 10 caracteres." className="inputMsj"/>
+//          <label for="message">Mensaje:</label>
+//          <textarea required id="message" name="Mensaje" 
+//          type="textarea" minLength="10" title="Mensaje mínimo de 10 caracteres." className="inputMsj"/>
   
-        {/* <input type="hidden" name="_next" value="https://.com/Enviado"/> Poner URL del dominio */}
-        <input type="hidden" name="_subject" value="Nueva consulta desde la web!"/>
-        <input type="hidden" name="_captcha" value="false"/>
+//         {/* <input type="hidden" name="_next" value="https://.com/Enviado"/> Poner URL del dominio */}
+//         <input type="hidden" name="_subject" value="Nueva consulta desde la web!"/>
+//         <input type="hidden" name="_captcha" value="false"/>
          
   
-        <button className="btnSend" type="submit" value="Send">ENVIAR</button>
-        </form>
-        </div>
-        </div>
+//         <button className="btnSend" type="submit" value="Send">ENVIAR</button>
+//         </form>
+//         </div>
+//         </div>
+//         </>
+      
+//     );
+//   }
+  
+//   export default Formulario;
+import "../form.scss";
+
+
+  function Formulario() {
+    return (
+      <>
+    <div class="container">
+      <div class="left">
+       <div class="header">
+      <h2 class="animation a1">Un poco de vos</h2>
+      <h4 class="animation a2">Los siguientes campos son obligatorios.</h4>
+       </div>
+    <div class="form">
+      <input type="text" class="form-field animation a4" placeholder="Tu nombre"/>
+      <input type="email" class="form-field animation a3" placeholder="Correo"/>
+      <textarea required id="message" name="Mensaje" type="textarea" minLength="10" title="Mensaje mínimo de 10 caracteres." className="inputMsj" class="form-field animation a3" placeholder="Tu mensaje"/>
+      <button class="animation a6">ENVIAR</button>
+    </div>
+    </div>
+      <div class="right"></div>
+       </div>
         </>
       
     );
   }
   
   export default Formulario;
+
+
+ 
