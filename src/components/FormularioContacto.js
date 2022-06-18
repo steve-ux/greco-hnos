@@ -41,13 +41,16 @@ import "../form.scss";
     <div class="container">
       <div class="left">
        <div class="header">
-      <h2 class="animation a1">Un poco de vos</h2>
-      <h4 class="animation a2">Los siguientes campos son obligatorios.</h4>
+      <h2 class="animation a1">Te respondemos a la brevedad</h2>
+      <h4 class="animation a2">* Los siguientes campos son obligatorios.</h4>
        </div>
-    <div class="form">
-      <input type="text" class="form-field animation a4" placeholder="Tu nombre"/>
-      <input type="email" class="form-field animation a3" placeholder="Correo"/>
-      <textarea required id="message" name="Mensaje" type="textarea" minLength="10" title="Mensaje mínimo de 10 caracteres." className="inputMsj" class="form-field animation a3" placeholder="Tu mensaje"/>
+    <div class="form" action="https://formsubmit.co/grecohnostc@hotmail.com" method="POST">
+      <input required id="full_name" type="text" class="form-field animation a4" placeholder="* Nombre"/>
+      <input required id="email" type="email" class="form-field animation a3" placeholder="* Correo"/>
+      <textarea required id="message" name="Mensaje" type="textarea" minLength="10" title="Mensaje mínimo de 10 caracteres." className="inputMsj" class="form-field animation a3" placeholder="* Tu consulta"/>
+         <input type="hidden" name="_next" value="https://.com/Enviado"/> Poner URL del dominio
+         <input type="hidden" name="_subject" value="Nueva consulta desde la web!"/>
+         <input type="hidden" name="_captcha" value="false"/>
       <button class="animation a6">ENVIAR</button>
     </div>
     </div>
