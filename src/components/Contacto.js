@@ -16,25 +16,25 @@ function Contacto() {
           <div>
             <p className="texto-primeroT">
             <a href="https://goo.gl/maps/Jbkdyg5svu2yqCB67" target="_blank" rel="noreferrer"><img className="imagenC" src={Image1} alt="Ubicación" /></a>
-            <p className="text-icons"><a href="https://goo.gl/maps/Jbkdyg5svu2yqCB67" target="_blank" rel="noreferrer">Brandsen 2770, Dorrego - Guaymallén</a></p>
+            <p className="text-icons"><a href="https://goo.gl/maps/Jbkdyg5svu2yqCB67" target="_blank" rel="noreferrer" className="text-icons">Brandsen 2770, Dorrego - Guaymallén</a></p>
             </p>
           </div>
           <div>
             <p className="texto-primeroT">
             <a href="tel:2615069690"><img className="imagenC" src={Image2} alt="Teléfono fijo" /></a>
-            <p className="text-icons"><a href="tel:2615069690"><p>261 431-4024</p></a></p>
+            <p className="text-icons"><a href="tel:2615069690"><p className="text-icons">261 431-4024</p></a></p>
             </p>
           </div>
           <div>
             <p className="texto-primeroT">
             <a href="mailto:grecohnostc@hotmail.com"><img className="imagenC" src={Image3} alt="Correo electrónico" /></a>
-            <p className="text-icons"><a href="mailto:grecohnostc@hotmail.com"><p>grecohnostc@hotmail.com</p></a></p>
+            <p className="text-icons"><a href="mailto:grecohnostc@hotmail.com"><p className="text-icons">grecohnostc@hotmail.com</p></a></p>
             </p>
           </div>
           <div>
             <p className="texto-primeroT">
             <a href="https://api.whatsapp.com/send?phone=5492616963854&text=Hola!%20Visité%20su%20web%20y%20quisiera%20conocer%20más%20sobre%20sus%20productos" target="_blank" rel="noreferrer"><img className="imagenE" src={Image4} alt="WhatsApp" /></a>
-            <p className="text-icons"><a href="https://api.whatsapp.com/send?phone=5492616963854&text=Hola!%20Visité%20su%20web%20y%20quisiera%20conocer%20más%20sobre%20sus%20productos" target="_blank" rel="noreferrer"><p>261 696-3854</p></a></p>
+            <p className="text-icons"><a href="https://api.whatsapp.com/send?phone=5492616963854&text=Hola!%20Visité%20su%20web%20y%20quisiera%20conocer%20más%20sobre%20sus%20productos" target="_blank" rel="noreferrer"><p className="text-icons">261 696-3854</p></a></p>
             </p>
           </div>
         </div>

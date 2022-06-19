@@ -35,11 +35,39 @@ body {
   margin-left: 5rem;
   background-image: url('./assets/tapa.jpeg');
   background-size: cover;
-  filter: grayscale(100%) blur(.5px);
   background-repeat: no-repeat;
   background-position: center;
+  filter: grayscale(100%) blur(.5px);
+  animation: myAnim 20s ease 0s infinite normal forwards;
 }
 
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateY(-8px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateY(8px);
+	}
+
+	80% {
+		transform: translateY(6.4px);
+	}
+
+	90% {
+		transform: translateY(-6.4px);
+	}
+}
 
 
 .header > h2 {

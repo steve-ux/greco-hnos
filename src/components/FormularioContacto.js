@@ -33,6 +33,7 @@
   
 //   export default Formulario;
 import "../form.scss";
+//import CilindroFalcon from "../assets/tapa.jpeg";
 
 
   function Formulario() {
@@ -55,8 +56,8 @@ import "../form.scss";
     </div>
     </div>
       <div class="right"></div>
-       </div>
-        </>
+      </div>
+    </>
       
     );
   }

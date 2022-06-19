@@ -242,7 +242,7 @@ span {
 .titleContacto2 {
   text-align: center;
   font-size: 2rem;
-  color: var(--primary-color);
+  color: white;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
   margin-top: 5rem;
@@ -254,16 +254,19 @@ span {
   margin-top: 3rem;
 }
 .texto-primeroT {
-  color: #e32415;
+  color: #ffffff;
   font-weight: bold;
   font-size: 3rem;
   text-align: center;
 }
 .text-icons {
   font-size: 1.3rem;
-  color: #e32415;
+  color: #f9f9f9;
   font-weight: bold;
   text-align: center;
+}
+.text-icons:hover {
+  color: var(--primary-color);
 }
 .imagenD {
   width: 25%;
@@ -272,10 +275,12 @@ span {
 .imagenC {
   width: 15%;
   height: 15%;
+  filter: drop-shadow(3px 5px 20px red)
 }
 .imagenE {
   width: 15%;
   height: 15%;
+  filter: drop-shadow(3px 5px 20px red)
 }
 a {
   text-decoration: none;
@@ -344,5 +349,9 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+.text-footer {
+  text-align: center;
+  color: white;
 }
 

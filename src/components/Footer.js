@@ -1,6 +1,4 @@
 import LogoLinkedIn from "../assets/LinkedIn-red.png";
-import LogoInstagram from "../assets/Instagram-red.png";
-import LogoGitHub from "../assets/GitHub-red.png";
 
 function Footer() {
     return (
@@ -9,9 +7,8 @@ function Footer() {
           <div className="footerContainer">
           <div className="containerFooter">
               <a href="https://www.facebook.com/GrecoHnos" target="_blank" rel="noreferrer"><img src={LogoLinkedIn} width="60" alt="Logo Facebook"/></a>
-              <a href="https://www.instagram.com/esteban_instaok/" target="_blank" rel="noreferrer"><img src={LogoInstagram} width="60" alt="Logo Instagram"/></a>
-              <a href="https://github.com/steve-ux" target="_blank" rel="noreferrer"><img src={LogoGitHub} width="60" alt="Logo GitHub"/></a>
           </div>
+              <p className="text-footer">Greco Hermanos © <span id="get-current-year">{new Date().getFullYear()}</span></p>
           </div>
         </footer>
       </div>

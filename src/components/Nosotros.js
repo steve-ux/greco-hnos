@@ -24,10 +24,10 @@ function Nosotros () {
               
             <div className="text-nosotros" data-aos="fade-right" data-aos-duration="600">
                 <p>
-                Las tapas de cilindro ayudan a mantener el <span>motor fresco</span>.  Su diseño permite que el refrigerante circule a través de la junta de la tapa.
+                Las tapas de cilindro ayudan a mantener el <span>motor fresco</span>.
                 </p>
                 <p>
-                    Esta circulación a través de estas y otras partes del sistema de refrigeración evita que el motor se sobrecaliente. 
+                    Su funcionamiento, en conjunto con el refrigerante, evita que el motor se sobrecaliente. 
                 </p>
                 <p>En <span>Greco</span> sabemos de motores, nos importa el cliente y que su vehículo esté óptimo, por ello nuestros productos son de alta calidad y nuestra atención personalizada, adaptada a cada usuario que nos elige hoy o desde siempre.</p>
             </div>
