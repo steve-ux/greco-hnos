@@ -42,6 +42,22 @@ body {
 .logo-header {
   filter: drop-shadow(8px 8px 20px red)
 }
+@media (max-width: 699px) {
+  .logo-header {
+    width: 60%;
+  }
+  .video {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 40%;
+    height: 140%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    filter: grayscale(100%);
+  }
+}
 
 .containerElements {
   display: flex;
@@ -188,6 +204,53 @@ a:hover span:nth-child(2):after {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+.box-padre {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+@media (max-width: 699px) {
+  .text-nosotros {
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;    
+    margin-top: 1rem;
+  }
+  
+  .div-img {
+    background: linear-gradient(315deg, #03a9f4, #ff0058);
+  }
+  .img-nosotros {
+    mix-blend-mode: multiply;
+    filter: grayscale(100%);
+    padding: 1rem;
+    margin-left: 1rem;
+    width: 90%;
+    display: flex;
+    align-self: center;    
+  }
+  .box-nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  .titleNosotros {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+  }
+  .box-padre {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 iframe {
   padding: 1rem;
@@ -213,7 +276,7 @@ span {
   flex-direction: row;
 }
 .div-img {
-  background-color: #ce4343;
+  background: linear-gradient(315deg, #ffbc00, #ff0058);
 }
 .img-nosotros {
   mix-blend-mode: multiply;
@@ -230,6 +293,12 @@ span {
   padding: 1rem;
   background-image: url("./assets/Black\ and\ noise.jpg");
 }
+.containerContact {
+  background-image: url("./assets/wall-neon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
 
 .titleContacto {
   text-align: center;
@@ -237,7 +306,23 @@ span {
   color: var(--primary-color);
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
-  margin-top: 5rem;
+  margin-top: 2rem;
+}
+@media (max-width: 699px) {
+  .titleContacto {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+  }
+  .container-contact {
+    padding: 1rem;
+    background-image: url("./assets/Black\ and\ noise.jpg");
+    display: flex;
+    flex-direction: column;
+  }
 }
 .titleContacto2 {
   text-align: center;
@@ -253,6 +338,15 @@ span {
   justify-content: space-around;
   margin-top: 3rem;
 }
+
+@media (max-width: 699px) {
+  .container-iconos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 3rem;
+  }
+}
 .texto-primeroT {
   color: #ffffff;
   font-weight: bold;
@@ -266,7 +360,8 @@ span {
   text-align: center;
 }
 .text-icons:hover {
-  color: var(--primary-color);
+  color: black;
+  filter: drop-shadow(3px 5px 20px red)
 }
 .imagenD {
   width: 25%;
@@ -352,6 +447,27 @@ footer {
 }
 .text-footer {
   text-align: center;
-  color: white;
+  color: rgb(156, 156, 156);
+  font-size: 1.3rem;
+}
+.text-footer2 {
+  text-align: center;
+  color: rgb(110, 110, 110);
+  opacity: 100%;
+  font-size: .8rem;
+}
+.firma {
+  text-transform: none;
+  font-weight: bold;
+  color: #481040;
+  font-size: .8rem;
+}
+.firma:hover {
+  color: rgb(110, 110, 110);
+  filter: drop-shadow(3px 5px 20px #1d061a);
+  font-size: .8rem;
+}
+#get-current-year {
+  color: rgb(156, 156, 156);
 }
 
