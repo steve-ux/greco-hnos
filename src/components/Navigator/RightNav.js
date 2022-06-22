@@ -16,14 +16,13 @@ const Ul = styled.ul`
     float:left;
     font-family: Poppins, sans-serif;
     text-transform: uppercase;
-    margin-right: 3rem;
   }
   
   .nav li a {
     background-color: black;
     color: white;
     text-decoration:none;
-    padding:8px 5px;
+    padding:10px;
     display:block;
   }
   
@@ -43,7 +42,6 @@ const Ul = styled.ul`
   
   .nav li ul li {
     position:relative;
-    margin-left: -2rem;
     font-family: Montserrat Black Italic;
     color: #EF233C;
     text-transform: uppercase;
@@ -62,21 +60,13 @@ const Ul = styled.ul`
     top: 0;
     right: 0;
     height: 100vh;
-    width: 200px;
-    padding-top: 3.5rem;
+    width: 230px;
+    padding-top: 3rem;
     transition: transform 0.3s ease-in-out;
-    z-index: 20;
+    z-index: 19;
 
     li {
       color: white;
-    }
-    .nav li ul {
-      display:none;
-      position:absolute;
-      min-width:140px;
-    }
-    .nav li ul li {
-      position:relative;
     }
   }
 `;

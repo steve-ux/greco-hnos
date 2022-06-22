@@ -1,5 +1,5 @@
 import FormularioContacto from "../components/FormularioContacto";
-import Image1 from "../assets/map.png";
+import Image1 from "../assets/map1.png";
 import Image2 from "../assets/tel.png";
 import Image3 from "../assets/mail.png";
 import Image4 from "../assets/whatsapp.png";
@@ -11,9 +11,9 @@ function Contacto() {
       <div className="text-contacto"></div>
       <FormularioContacto />
       <div className="containerContact">
-      <h2 className="titleContacto2">Otras vías de contacto</h2>
+      <h2 className="titleContacto2" data-aos="fade-down" data-aos-duration="600">Otras vías de contacto</h2>
       <div className="iconos-valores">
-        <div className="container-iconos">
+        <div className="container-iconos" data-aos="fade-up" data-aos-duration="600">
           <div>
             <p className="texto-primeroT">
             <a href="https://goo.gl/maps/Jbkdyg5svu2yqCB67" target="_blank" rel="noreferrer"><img className="imagenC" src={Image1} alt="Ubicación" /></a>

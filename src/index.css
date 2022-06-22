@@ -294,7 +294,7 @@ span {
   background-image: url("./assets/Black\ and\ noise.jpg");
 }
 .containerContact {
-  background-image: url("./assets/wall-neon.jpg");
+  background: linear-gradient(315deg, #ffbc00, #ff0058);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -359,9 +359,10 @@ span {
   font-weight: bold;
   text-align: center;
 }
+
 .text-icons:hover {
   color: black;
-  filter: drop-shadow(3px 5px 20px red)
+  filter: drop-shadow(3px 5px 20px rgb(255, 255, 255))
 }
 .imagenD {
   width: 25%;
@@ -370,12 +371,12 @@ span {
 .imagenC {
   width: 15%;
   height: 15%;
-  filter: drop-shadow(3px 5px 20px red)
+  filter: drop-shadow(3px 5px 20px rgb(255, 255, 255))
 }
 .imagenE {
   width: 15%;
   height: 15%;
-  filter: drop-shadow(3px 5px 20px red)
+  filter: drop-shadow(3px 5px 20px rgb(255, 255, 255))
 }
 a {
   text-decoration: none;
@@ -448,19 +449,19 @@ footer {
 .text-footer {
   text-align: center;
   color: rgb(156, 156, 156);
-  font-size: 1.3rem;
+  font-size: .8rem;
 }
 .text-footer2 {
   text-align: center;
   color: rgb(110, 110, 110);
   opacity: 100%;
-  font-size: .8rem;
+  font-size: .7rem;
 }
 .firma {
   text-transform: none;
   font-weight: bold;
-  color: #481040;
-  font-size: .8rem;
+  color: #6c1313;
+  font-size: .7rem;
 }
 .firma:hover {
   color: rgb(110, 110, 110);
@@ -469,5 +470,43 @@ footer {
 }
 #get-current-year {
   color: rgb(156, 156, 156);
+}
+
+
+/* Enviado */
+
+.titleEnviado {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  color: black;
+  padding: 1rem;
+  margin-top: 7rem;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+  text-align: center;
+  height: 50vh;
+}
+.btnEnviado {
+    padding: 12px 10px;
+    text-align: center;
+    border: 0;
+    background: linear-gradient(315deg, #ffbc00, #ff0058);
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.contenedorBtn {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+@media (max-width: 699px) {
+  .titleEnviado {
+    font-size: 1.5rem;
+  }  
 }
 

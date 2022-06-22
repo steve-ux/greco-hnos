@@ -45,7 +45,7 @@ import CilindroFalcon from "../assets/tapa.jpeg";
       <h2 class="animation a1">Te respondemos a la brevedad</h2>
       <h4 class="animation a2">* Campos obligatorios.</h4>
        </div>
-    <form class="form" action="https://formsubmit.co/exe.universal@gmail.com" method="POST">
+    <form class="formu" action="https://formsubmit.co/exe.universal@gmail.com" method="POST">
       <input required id="full_name" type="text" class="form-field animation a4" placeholder="* Nombre"/>
       <input required id="email" type="email" class="form-field animation a3" placeholder="* Correo"/>
       <textarea required id="message" name="Mensaje" type="textarea" minLength="10" title="Mensaje mínimo de 10 caracteres." className="inputMsj" class="form-field animation a3" placeholder="* Tu consulta"/>
