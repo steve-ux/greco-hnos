@@ -12,8 +12,8 @@ import CilindroFalcon from "../assets/tapa.jpeg";
       <h4 class="animation a2">* Campos obligatorios.</h4>
        </div>
     <form class="formu" action="https://formsubmit.co/exe.universal@gmail.com" method="POST">
-      <input required id="full_name" type="text" class="form-field animation a4" placeholder="* Nombre"/>
-      <input required id="email" type="email" class="form-field animation a3" placeholder="* Correo"/>
+      <input required id="full_name" name="Nombre" type="text" class="form-field animation a4" placeholder="* Nombre"/>
+      <input required id="email" name="Correo electrónico" type="email" class="form-field animation a3" placeholder="* Correo"/>
       <textarea required id="message" name="Mensaje" type="textarea" minLength="10" title="Mensaje mínimo de 10 caracteres." className="inputMsj" class="form-field animation a3" placeholder="* Tu consulta"/>
          <input type="hidden" name="_next" value="https://grecohnos.com/Enviado"/>
          <input type="hidden" name="_subject" value="Nueva consulta desde la web!"/>
