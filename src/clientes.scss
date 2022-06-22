@@ -67,3 +67,11 @@ $animationSpeed: 40s;
 		filter: none;
 	}
 }
+@media (max-width: 699px) {
+	.slide {
+		height: 100px;
+		width: 250px;
+		padding: 1rem;
+		filter: none !important;
+	}
+}
