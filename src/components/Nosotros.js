@@ -14,7 +14,7 @@ function Nosotros () {
             </div>
             </div>
             <div className="text-nosotros" data-aos="fade-up" data-aos-duration="600">
-                <p>Somos una empresa con más de <span>30 años de experiencia</span> en la rectificación de tapas de cilindros y desde hace 10 años también nos dedicamos a la rectificación de motores pesados.</p>
+                <p>Somos una empresa con más de <span>30 años de experiencia</span> en la rectificación y ventas de tapas de cilindro.</p>
                 <p>
                 Nuestro personal está compuesto por un jefe de taller, un ingeniero industrial en el departamento de ventas y 2 operarios, además de la gerencia, a cargo de <span>Omar Greco</span> y <span>Daniel Greco</span>.  
                 </p>                
