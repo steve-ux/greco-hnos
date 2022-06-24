@@ -14,10 +14,7 @@ function Nosotros () {
             </div>
             </div>
             <div className="text-nosotros" data-aos="fade-up" data-aos-duration="600">
-                <p>Somos una empresa con más de <span>30 años de experiencia</span> en la rectificación y ventas de tapas de cilindro.</p>
-                <p>
-                Nuestro personal está compuesto por un jefe de taller, un ingeniero industrial en el departamento de ventas y 2 operarios, además de la gerencia, a cargo de <span>Omar Greco</span> y <span>Daniel Greco</span>.  
-                </p>                
+                <p>Somos una empresa con más de <span>30 años de experiencia</span> en la rectificación y venta de tapas de cilindro.</p>                
                 <p>En <span>Greco</span> sabemos de motores, nos importa el cliente y que su vehículo esté óptimo, por ello nuestros productos son de alta calidad y nuestra atención personalizada, adaptada a cada usuario que nos elige hoy o desde siempre.</p>
                 <p>Ubicados en el Gran Mendoza, realizamos envíos de nuestros productos a todo el país y aceptamos todos los medios de pago.</p>
             </div>
