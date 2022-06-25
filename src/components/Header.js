@@ -16,7 +16,7 @@ function Home() {
         <p className="parrafoHome">
             TAPAS DE CILINDRO
           </p>
-        <img src={Cursor} alt="Manito del cursor" width="60" className="cursor"/>
+        <img src={Cursor} alt="Flecha apuntando hacia abajo" width="60" className="cursor"/>
           <div class="center">
         <a href="https://api.whatsapp.com/send?phone=5492616963854&text=Hola!%20Visité%20su%20web%20y%20quisiera%20conocer%20más%20sobre%20sus%20productos" target="_blank" rel="noreferrer"><span data-attr="WHATS">WHATS</span><span data-attr="APP">APP</span></a>
     </div>

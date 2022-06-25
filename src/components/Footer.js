@@ -9,7 +9,7 @@ function Footer() {
               <a href="https://www.facebook.com/GrecoHnos" target="_blank" rel="noreferrer"><img src={LogoLinkedIn} width="60" alt="Logo Facebook"/></a>
           </div>
               <p className="text-footer">Greco Hermanos © <span id="get-current-year">{new Date().getFullYear()}</span> | Mendoza, AR</p>
-              <p className="text-footer2">Web creada por <span><a href="https://linktr.ee/steve.ok" target="_blank" rel="noreferrer" className="firma">EDev</a></span></p>
+              <p className="text-footer2">Web creada por <span><a href="https://linktr.ee/steve.ok" target="_blank" rel="noreferrer" className="firma">DevFreelancer</a></span></p>
           </div>
         </footer>
       </div>

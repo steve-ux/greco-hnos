@@ -60,6 +60,38 @@ body {
     opacity: 90%;
   }
 }
+@media (max-width: 1360px) {
+  .logo-header {
+    width: 30%;
+  }
+  .video {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 40%;
+    height: 140%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    filter: grayscale(100%) blur(1px);
+    opacity: 90%;
+  }
+  .cursor {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem !important;
+    filter: invert(100%);
+    animation: myAnim 8s ease 0s infinite normal forwards;
+  }
+  .parrafoHome {
+    font-family: 'Poppins', sans-serif;
+    margin-top: -1rem !important;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #ffffff;
+  }
+}
 
 .containerElements {
   display: flex;
@@ -353,6 +385,22 @@ span {
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     margin-top: 2rem;
+  }
+  .container-contact {
+    padding: 1rem;
+    background-image: url("./assets/Black\ and\ noise.jpg");
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1360px) {
+  .titleContacto {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 4rem !important;
   }
   .container-contact {
     padding: 1rem;
