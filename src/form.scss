@@ -80,19 +80,7 @@ body {
     flex-direction: row;
     height: 100%;
     width: 100%;
-    margin-left: -2rem !important;
-  }
-  .left {
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    animation-name: left;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-delay: 1s;
-    width: 100% !important;
+    margin-left: -6rem !important;
   }
   .wrapper {
     width: 70% !important;
@@ -113,22 +101,22 @@ body {
     height: auto;
   }
   .caption {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
     text-align: center;
     line-height: 2em;
     text-transform: uppercase;
     font-style: italic;
   }
   .item {
-    width: 90% !important;
+    width: 70% !important;
     display: inline-block;
     filter: grayscale(100%);
   }
   .formu > input{
-    width: 80% !important;
+    width: 150% !important;
   }
   .formu > textarea {
-    width: 80% !important;
+    width: 150% !important;
   }
   .header > h2 {
     width: 100%;
@@ -140,7 +128,68 @@ body {
     background: linear-gradient(315deg, #ffbc00, #ff0058);
     border-radius: 3px;
     margin-top: 10px;
-    width: 80% !important;
+    width: 150% !important;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-left: -6rem !important;
+  }
+  .wrapper {
+    width: 70% !important;
+    margin-left: 7rem !important;
+    margin-top: 2rem;
+    padding: 0 2rem;
+    text-align: center;
+    animation: myAnim 20s ease 0s infinite normal forwards;
+  }
+  .polaroid {
+    background: rgb(239, 65, 65);
+    padding: 1rem;
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+    
+  }
+  .polaroid > img{
+    width: 100% !important;
+    height: auto;
+  }
+  .caption {
+    font-size: 1rem !important;
+    text-align: center;
+    line-height: 2em;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+  .item {
+    width: 140% !important;
+    display: inline-block;
+    filter: grayscale(100%);
+  }
+  .formu > input{
+    width: 150% !important;
+  }
+  .formu > textarea {
+    width: 150% !important;
+  }
+  .header > h2 {
+    width: 100%;
+    color: white !important;
+  }
+  .formu > button {
+    padding: 12px 10px;
+    border: 0;
+    background: linear-gradient(315deg, #ffbc00, #ff0058);
+    border-radius: 3px;
+    margin-top: 10px;
+    width: 150% !important;
     color: #fff;
     letter-spacing: 1px;
     font-family: 'Rubik', sans-serif;

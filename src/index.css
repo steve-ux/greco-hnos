@@ -62,7 +62,7 @@ body {
 }
 @media (max-width: 1360px) {
   .logo-header {
-    width: 30%;
+    width: 60%;
   }
   .video {
     position: absolute;
@@ -396,7 +396,7 @@ span {
 @media (max-width: 1360px) {
   .titleContacto {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--primary-color);
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
