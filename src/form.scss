@@ -64,14 +64,14 @@ body {
     filter: grayscale(100%);
   }
   .formu > input{
-    width: 180% !important;
+    width: 120% !important;
   }
   .formu > textarea {
-    width: 180% !important;
+    width: 120% !important;
   }
   .header > h2 {
     width: 100%;
-    color: white !important;
+    color: #e32415 !important;
   }
 }
 @media (max-width: 1360px) {
@@ -120,7 +120,7 @@ body {
   }
   .header > h2 {
     width: 100%;
-    color: white !important;
+    color: #e32415 !important;
   }
   .formu > button {
     padding: 12px 10px;
@@ -181,7 +181,7 @@ body {
   }
   .header > h2 {
     width: 100%;
-    color: white !important;
+    color: #e32415 !important;
   }
   .formu > button {
     padding: 12px 10px;
@@ -196,6 +196,24 @@ body {
     cursor: pointer;
   }
 }
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin-left: -6rem !important;
+  }
+  .wrapper {
+    width: 30% !important;
+    margin-left: 7rem !important;
+    margin-top: 2rem;
+    padding: 0 2rem;
+    text-align: center;
+    animation: myAnim 20s ease 0s infinite normal forwards;
+  }
+}
+
 
 .left {
   overflow: hidden;
@@ -237,6 +255,39 @@ body {
 	90% {
 		transform: translateY(-6.4px);
 	}
+}
+@media (max-width: 320px) {
+  .formu {
+    max-width: 130% !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .formu > input{
+    width: 200%;
+  }
+}
+@media (max-width: 376px) {
+  .formu {
+    max-width: 130% !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .formu > input{
+    width: 200%;
+  }
+}
+@media (max-width: 1026px) {
+  .formu {
+    max-width: 110% !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .formu > input{
+    width: 140% !important;
+  }
+  .formu > textarea {
+    width: 140% !important;
+  }
 }
 
 .wrapper {
@@ -403,7 +454,7 @@ form {
   cursor: pointer;
 }
 
-button:hover {
+.button4:hover {
   background: linear-gradient(315deg, #4dff03, #00d0ff);
   color: black;
 } 
@@ -422,6 +473,7 @@ button:hover {
 
 .a2 {
   animation-delay: 2.1s;
+  color: #000000 !important;
 }
 
 .a3 {

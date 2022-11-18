@@ -16,6 +16,7 @@ const Ul = styled.ul`
     float:left;
     font-family: Poppins, sans-serif;
     text-transform: uppercase;
+    padding: .5rem;
   }
   
   .nav li a {
@@ -69,6 +70,11 @@ const Ul = styled.ul`
       color: white;
     }
   }
+  @media (max-width: 768px) {
+    li {
+      padding: .5rem;
+    }
+  }
 `;
 
 const RightNav = ({ open }) => {
@@ -77,7 +83,8 @@ const RightNav = ({ open }) => {
       <ul className="nav">
 				<li><Link to="/">INICIO</Link></li>
         <li><a href="#Nosotros">NOSOTROS</a></li>
-        <li><a href="#Contacto">CONTACTO</a></li>					
+        <li><a href="#Contacto">CONTACTO</a></li>
+        <li><a href="#Eleginos">ELEGINOS</a></li>					
 			</ul>
     </Ul>
   )

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Burger from "./Burger";
-import LogoGreco from "../../assets/greco-logo.png";
+import LogoGreco from "../../assets/logo-completo-white.png";
 
 const Nav = styled.nav`
   height: 12vh;
@@ -16,24 +16,65 @@ const Nav = styled.nav`
   }
   img {    
     filter: drop-shadow(3px 5px 20px red);
+    width: 10vw;
+    height: 4vh;
+    margin-top: 1.5rem 
   }
-  .logoNav {
-    width: 7vw;
+  .logo {
+    width: 10vw;
     padding: 12px;
   }
-  @media (max-width: 759px) {
-    .logoNav {
+  @media (max-width: 1025px) {
+    .logo {
       width: 12vw;
+    }
+    img {    
+      filter: drop-shadow(3px 5px 20px red);
+      width: 15vw;
+      height: 5vh;
+      margin-top: 1rem 
+    }
+  }
+  @media (max-width: 769px) {
+    .logo {
+      width: 12vw;
+    }
+    img {    
+      filter: drop-shadow(3px 5px 20px red);
+      width: 20vw;
+      height: 4vh;
+      margin-top: 1rem 
     }
   }
   @media (max-width: 520px) {
-    .logoNav {
+    .logo {
       width: 14vw;
+    }
+    img {    
+      filter: drop-shadow(3px 5px 20px red);
+      width: 30vw;
+      height: 4vh;
+      margin-top: 1rem 
     }
   }
   @media (max-width: 420px) {
-    .logoNav {
+    .logo {
       width: 18vw;
+    }
+    img {    
+      filter: drop-shadow(3px 5px 20px red);
+      width: 30vw;
+      height: 4vh;
+      margin-top: 1rem 
+    }
+    
+    @media (max-width: 320px) {
+      img {    
+        filter: drop-shadow(3px 5px 20px red);
+        width: 30vw;
+        height: 4vh;
+        margin-top: 1rem 
+      }
     }
   }
 `;

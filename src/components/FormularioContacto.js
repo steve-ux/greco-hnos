@@ -18,7 +18,7 @@ import CilindroFalcon from "../assets/tapa.jpeg";
          <input type="hidden" name="_next" value="https://grecohnos.com/Enviado"/>
          <input type="hidden" name="_subject" value="Nueva consulta desde la web!"/>
          <input type="hidden" name="_captcha" value="false"/>
-      <button class="animation a6" type="submit" value="Send">ENVIAR</button>
+      <button class="animation a6 button4" type="submit" value="Send">ENVIAR</button>
     </form>
     </div>
     <div class="wrapper">
