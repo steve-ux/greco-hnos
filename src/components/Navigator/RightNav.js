@@ -83,8 +83,8 @@ const RightNav = ({ open }) => {
       <ul className="nav">
 				<li><Link to="/">INICIO</Link></li>
         <li><a href="#Nosotros">NOSOTROS</a></li>
-        <li><a href="#Contacto">CONTACTO</a></li>
-        <li><a href="#Eleginos">ELEGINOS</a></li>					
+        <li><a href="#Contacto">ELEGINOS</a></li>
+        <li><a href="#Eleginos">CONTACTO</a></li>					
 			</ul>
     </Ul>
   )
