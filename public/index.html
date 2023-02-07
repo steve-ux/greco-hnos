@@ -28,6 +28,61 @@
       gtag("js", new Date());
       gtag("config", "AW-11016079587");
     </script>
+    <script>
+
+window.addEventListener('DOMContentLoaded', function(){
+
+document.querySelectorAll('a[href*="whatsapp"]').forEach(function(boton){
+
+    boton.addEventListener('click', function(){
+
+    console.log('funcionou')
+
+     gtag('event', 'conversion', {'send_to': 'AW-11016079587/WlqRCPDS94oYEOOR8IQp'});
+
+});
+
+})
+
+})
+
+</script>
+
+<script>
+
+window.addEventListener('DOMContentLoaded', function(){
+
+document.querySelector('a[href*="tel"]').addEventListener('click', function(){
+
+ console.log('deu certo')
+
+   gtag('event', 'conversion', {'send_to': 'AW-11016079587/6SBACPbS94oYEOOR8IQp'});
+
+
+
+})
+
+})
+
+</script>
+
+<script>
+
+window.addEventListener('DOMContentLoaded', function(){
+
+if(window.location.href == "https://grecohnos.com/Enviado") {
+
+    console.log("Muchas Gracias!");
+
+   gtag('event', 'conversion', {'send_to': 'AW-11016079587/HUjsCPPS94oYEOOR8IQp'});
+
+
+
+  }
+
+})
+
+</script>
     <title>Greco Hermanos</title>
   </head>
   <body>
