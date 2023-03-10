@@ -811,17 +811,14 @@ footer {
 }
 .firma {
   text-transform: none;
-  font-weight: bold;
-  color: #6c1313;
+  color: #00fe7f95;
   font-size: .7rem;
 }
 .firma:hover {
-  color: rgb(110, 110, 110);
-  filter: drop-shadow(3px 5px 20px #1d061a);
-  font-size: .8rem;
+  color: #00fe7f;
 }
 #get-current-year {
-  color: rgb(156, 156, 156);
+  color: #e32415;
 }
 
 

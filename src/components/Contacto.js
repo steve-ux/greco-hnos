@@ -1,6 +1,5 @@
 import FormularioContacto from "../components/FormularioContacto";
 import Image1 from "../assets/map1.png";
-import Image2 from "../assets/tel.png";
 import Image3 from "../assets/mail.png";
 import Image4 from "../assets/whatsapp.png";
 
@@ -18,12 +17,6 @@ function Contacto() {
             <p className="texto-primeroT">
             <a href="https://goo.gl/maps/Jbkdyg5svu2yqCB67" target="_blank" rel="noreferrer"><img className="imagenC" src={Image1} alt="Ubicación" /></a>
             <p className="text-icons"><a href="https://goo.gl/maps/Jbkdyg5svu2yqCB67" target="_blank" rel="noreferrer" className="text-icons">Brandsen 2770, Dorrego - Guaymallén - Mendoza</a></p>
-            </p>
-          </div>
-          <div>
-            <p className="texto-primeroT">
-            <a href="tel:2614314024"><img className="imagenC" src={Image2} alt="Teléfono fijo" /></a>
-            <p className="text-icons"><a href="tel:2614314024"><p className="text-icons">261 431-4024</p></a></p>
             </p>
           </div>
           <div>
