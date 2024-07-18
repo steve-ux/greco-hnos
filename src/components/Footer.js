@@ -13,7 +13,7 @@ function Footer() {
               <a href="https://goo.gl/maps/Jbkdyg5svu2yqCB67" target="_blank" rel="noreferrer"><img src={LogoMaps} width="60" alt="Logo Maps"/></a>
           </div>
               <p className="text-footer">Greco Hermanos © <span id="get-current-year">{new Date().getFullYear()}</span> | Mendoza, AR</p>
-              <p className="text-footer2">Web creada por <span><a href="https://linktr.ee/steve.ok" target="_blank" rel="noreferrer" className="firma">PixelPeak</a></span></p>
+              <p className="text-footer2">Web creada por <span><a href="https://ekoddex.com/" target="_blank" rel="noreferrer" className="firma">eKoddex</a></span></p>
           </div>
         </footer>
       </div>
